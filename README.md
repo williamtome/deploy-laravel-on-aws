@@ -9,6 +9,7 @@ Stack:
 
 ## Login to EC2 instance:
 ```
+$ chmod 600 pemfilename.pem
 $ ssh -i “pemfilename.pem” username@ipaddressofinstance
 ```
 
